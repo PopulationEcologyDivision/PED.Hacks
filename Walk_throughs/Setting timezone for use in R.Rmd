@@ -6,6 +6,9 @@ output: html_document
 Issue: R has a hard time with timezones because it thinks we're based in Quebec. 
 
 Hack:
+
+** Please read all the way through before proceeding so that you don't unintentionally overwrite your Rprofile **
+
 Step 1
 You need to R as an admin. Easiest way to do this is hold down shift+ctrl when you click on the R-icon, the Avecto password thingy should pop up.
 
@@ -43,5 +46,5 @@ cat(setme,file=file.path(R.home(),'etc/Rprofile.site'),sep='\n')
 ```
 
 Two things
-1.	This overwrites whatever is in the ‘Rprofile.site’ file, so if you have anything important in there you may want to just open that as an admin and add this line to it….  Sys.setenv(TZ='America/Halifax')… I haven’t tested but believe that should work.
+1.	This overwrites whatever is in the ‘Rprofile.site’ file, so if you have anything important in there you may want to just open that as an admin and add this line to it….  `r Sys.setenv(TZ='America/Halifax')`… I haven’t tested but believe that should work.
 2.	If you use an .Rprofile you could also just add this to it… Sys.setenv(TZ='America/Halifax')…  the .Rprofile fix is not as robust as changing the Rprofile.site file according to what I’ve been reading.
