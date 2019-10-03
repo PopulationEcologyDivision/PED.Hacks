@@ -1,4 +1,4 @@
-# "Setting up Halifax timezone for R"
+# Setting up Halifax timezone for R
 
 Issue: R has a hard time with timezones because it thinks we're based in Quebec. 
 
