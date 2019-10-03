@@ -1,13 +1,10 @@
----
-title: "Setting up Halifax timezone for R"
-output: html_document
----
+# Setting up Halifax timezone for R
 
-Issue: R has a hard time with timezones because it thinks we're based in Quebec. 
+### Issue: R has a hard time with timezones because it thinks we're based in Quebec. 
 
-Hack:
+### Hack:
 
-** Please read all the way through before proceeding so that you don't unintentionally overwrite your Rprofile **
+**Please read all the way through before proceeding so that you don't unintentionally overwrite your Rprofile**
 
 Step 1
 You need to R as an admin. Easiest way to do this is hold down shift+ctrl when you click on the R-icon, the Avecto password thingy should pop up.
