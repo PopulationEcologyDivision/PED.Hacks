@@ -1,6 +1,6 @@
 # Welcome to PED.Hacks!
 
-https://github.com/Maritimes/PED.Hacks
+freya
 
 ## A resource for solutions to common issues related to IT/coding in the DFOsphere. 
 
